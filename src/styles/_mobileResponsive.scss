@@ -1,0 +1,16 @@
+@media (max-width: 400px) {
+
+    .container{
+        flex-direction: column;
+    }
+
+    .left-menu{
+        width: 100vw !important;
+        height: 10vh !important;
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: space-evenly !important;
+        z-index:2;
+    }
+
+}

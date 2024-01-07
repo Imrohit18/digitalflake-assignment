@@ -1,0 +1,33 @@
+.confirmation-window {
+
+    display: grid;
+    place-items: center;
+    z-index: 1;
+
+}
+
+.confirmation-background {
+    position: fixed;
+    width: 100vW;
+    height: 100vh;
+    background-color: rgb(197, 197, 197);
+    opacity: 0.5;
+    top: 0 !important;
+    left: 0 !important;
+
+}
+
+.delete-confirmation {
+    width: 30%;
+    height: 30%;
+    padding: 2em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 2 !important;
+    display: grid;
+    place-items: center;
+
+}

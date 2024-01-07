@@ -1,0 +1,49 @@
+.absolute {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+.active {
+    background-color: #FFF8B7;
+}
+
+.not-active {
+    background-color: #F4F4F4;
+}
+
+.purple-btn {
+    background-color: #662671;
+    color: white !important;
+    padding: 0.75em;
+    border-radius: 5px;
+    transition: 0.7s;
+
+}
+
+
+
+.white-btn {
+    background-color: white;
+    color: rgb(131, 131, 131);
+    padding: 0.75em;
+    border-radius: 2em;
+    transition: 0.7s;
+
+}
+
+.purple-btn:hover,
+.white-btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.round {
+    border-radius: 2em;
+}

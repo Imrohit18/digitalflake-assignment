@@ -1,0 +1,205 @@
+@import "./utilities";
+@import "./confirmationPrompt";
+@import "./addNewItem";
+@import "./loginPage";
+@import "./mobileResponsive";
+@import "./leftMenu";
+@import "./header";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    box-sizing: border-box;
+}
+
+
+
+
+.horizontal-ribbon-card {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+
+    margin: 1rem 0;
+    padding: 1rem 0;
+    background-color: #F2F2F2;
+    font-size: 16px;
+    line-height: 24px;
+
+    div {
+        // width: max-content;
+        // flex: 1;
+    }
+
+    .options {
+        display: flex;
+        button{
+            margin: 0 1em;
+        }
+    }
+}
+
+
+
+
+
+.product-image {
+    width: 3em;
+}
+
+
+
+.container {
+    height: 85vh;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.page {
+    box-shadow: 0 0 2px black;
+    margin: 1em;
+padding: 1em;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.products-grid {
+    height: 100%;
+    overflow: scroll;
+
+}
+
+.products-grid::-webkit-scrollbar {
+    display: none;
+  }
+.login-illustration {
+    width: 20em;
+}
+
+.page-ribbon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+
+    .search {
+        width: 50%;
+        border-radius: 5px;
+        border: 1px solid grey;
+        padding: 0.5em 1em;
+    }
+
+    .add-new-btn {
+        background-color: #662671;
+        color: white;
+        padding: 0.75em;
+        border-radius: 5px;
+    }
+
+    .title-info {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.form-container {
+    height: 100%;
+}
+
+.add-new-form {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .submit-btn-group {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        button {
+            margin: 0 2em;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+
+.input-grid {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+
+    div {
+        width: 90%;
+        margin: 2em 0;
+    }
+
+    input,
+    select {
+        width: 100%;
+        padding: 0.7em 0.5em;
+        border-radius: 5px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+}
+
+
+.form-group {
+    position: relative;
+
+    label {
+        position: absolute;
+        background-color: white;
+        font-size: 12px;
+        top: -1em;
+        left: 1em;
+    }
+}
+
+
+.front-banner{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    img{
+        width: 10em;
+    }
+
+    div{
+        text-align: center;
+    }
+}
+
+.logout-confirmation{
+    padding: 2em;
+    
+    h3, p{
+        text-align: center;
+        color: black;
+    }
+
+    button{
+        color: black;
+    }
+}
+
+.table-header{
+    p{
+        font-weight: bold;
+    }
+}

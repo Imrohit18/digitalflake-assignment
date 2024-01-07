@@ -1,0 +1,29 @@
+.left-menu {
+
+    width: 15vw;
+    height: 85vh;
+
+    background-color: #F4F4F4;
+    padding: 0 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    div{
+        display: flex;
+        align-items: center;
+        margin: 2rem 0;
+        p{
+            width: 100%;
+            text-align: center;
+        }
+
+    }
+
+    *{
+        text-decoration: none;
+    }
+}
+
+
